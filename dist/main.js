@@ -23,12 +23,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./imgs/noaa-99F4mC79j1I-unsplash (1).jpg */ "./src/imgs/noaa-99F4mC79j1I-unsplash (1).jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./imgs/circle-half-full.svg */ "./src/imgs/circle-half-full.svg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n\nbody {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n\n.top {\n    display: flex;\n    flex-direction: row;\n    height: 8rem;\n    align-items: center;\n    gap: 30%;\n    justify-content: center;\n}\n\n.logo {\n    font-size: 3rem;\n    color: white;\n}\n\n.search {\n    background-color: none;\n    height: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 30rem;\n    gap: 1rem;\n\n}\n\n.search input {\n    border-radius: 10px;\n    outline: none;\n    height: 3rem;\n    font-size: 1.5rem;\n    width: 18rem;\n    background-color: hsl(207,100%,41%);\n    border: 1px solid white;\n    color: white;\n}\n\n.search input::placeholder {\n    color: white;\n    opacity: 1; \n  }\n\n.search button{\n    width: 6rem;\n    height: 3rem;\n    cursor: pointer;\n    background: none;   \n    border-radius: 25px;\n    color: white;\n    font-size: 1.5rem;\n    border: 1px solid white;\n}\n\n.theme {\n    color: white;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n.hero {\n    height: 20rem;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    justify-content: center;\n    gap: 2rem;\n    color: white;\n}\n\n\n.hero h1 {\n    font-size: 6rem;\n}\n\n.hero p {\n    font-size: 2rem;\n}\n\n\n.content {\n    display: flex;\n    flex-direction: row;\n    height: 50rem;\n    justify-content: center;\n    align-items: center;\n    gap: 3rem;\n}\n\n\n.big-card {\n    height: 40rem;\n    width: 60rem;\n    border: 1px solid white;    \n    color: white;\n}\n\n\n.main-card {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; align-items: center;\n    gap: 2rem;\n}\n\n.city {\n    font-size: 5.5rem;\n}\n\n.country {\n    font-size: 2rem;\n}\n\n.temp {\n    font-size: 4rem;\n}\n\n.side-cards {\n    display: flex;\n    flex-direction: column;\n    gap: 4rem;\n}\n\n.side-cards div {\n    height: 18rem;\n    width: 30rem;\n    border: 1px solid white;    \n}\n\n.side-cards div div{\n    color: white;\n    display: flex;\n    width: 100%;\n    height: 100%;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    gap: 2rem;\n}\n\n.sc-p-1 {\n font-size: 2.5rem;\n}\n\n.sc-p-2 {\n    font-size:1.5rem\n}\n\n.history {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.history h2 {\n    font-size: 4rem;\n    color: white;\n}\n\n\nfooter {\n    height: 4rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: white;\n    font-size: 1.5rem;\n}\n\n\nfooter p a {\n    color: white;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n\nbody {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\nbackground-size: cover;}\n\n\n\n.top {\n    display: flex;\n    flex-direction: row;\n    height: 8rem;\n    align-items: center;\n    gap: 30%;\n    justify-content: center;\n}\n\n.logo {\n    font-size: 3rem;\n    color: white;\n}\n\n.search {\n    background-color: none;\n    height: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 30rem;\n    gap: 1rem;\n\n}\n\n.search input {\n    border-radius: 10px;\n    outline: none;\n    height: 3rem;\n    font-size: 1.5rem;\n    width: 18rem;\n    background-color: hsl(207,100%,41%);\n    border: 1px solid white;\n    color: white;\n}\n\n.search input::placeholder {\n    color: white;\n    opacity: 1; \n  }\n\n.search button{\n    width: 6rem;\n    height: 3rem;\n    cursor: pointer;\n    background: none;   \n    border-radius: 25px;\n    color: white;\n    font-size: 1.5rem;\n    border: 1px solid white;\n}\n\n.theme {\n    color: white;\n}\n\n.hero {\n    height: 20rem;\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    justify-content: center;\n    gap: 2rem;\n    color: white;\n}\n\n\n.hero h1 {\n    font-size: 6rem;\n}\n\n.hero p {\n    font-size: 2rem;\n}\n\n\n.content {\n    display: flex;\n    flex-direction: row;\n    height: 50rem;\n    justify-content: center;\n    align-items: center;\n    gap: 3rem;\n}\n\n\n.big-card {\n    height: 40rem;\n    width: 60rem;\n    border: 1px solid white;    \n    color: white;\n}\n\n\n.main-card {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; align-items: center;\n    gap: 2rem;\n}\n\n.city {\n    font-size: 5.5rem;\n}\n\n.country {\n    font-size: 2rem;\n}\n\n.temp {\n    font-size: 4rem;\n}\n\n.side-cards {\n    display: flex;\n    flex-direction: column;\n    gap: 4rem;\n}\n\n.side-cards div {\n    height: 18rem;\n    width: 30rem;\n    border: 1px solid white;    \n}\n\n.side-cards div div{\n    color: white;\n    display: flex;\n    width: 100%;\n    height: 100%;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    gap: 2rem;\n}\n\n.sc-p-1 {\n font-size: 2.5rem;\n}\n\n.sc-p-2 {\n    font-size:1.5rem\n}\n\n.history {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.history h2 {\n    font-size: 4rem;\n    color: white;\n}\n\n\n.recent-searches {\n    display: flex;\n    flex-direction: column;\n    gap: 2rem;\n}\n\n.history-card {\n    display: flex;\n    flex-direction: row;\n    height: 8rem;\n    width: 30rem;\n    border: 1px solid white;\n    cursor: pointer;\n}\n.gif {\n    width: 50%;\n    height: 100;\n}\n\n\n.location {\n    color: white;\n    display: flex;\n    flex-direction: column;\n    font-size: 2rem;\n    justify-content: center;\n    align-items: center;\n    margin: 0 auto;\n    gap: 1rem;\n}\nfooter {\n    height: 4rem;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: white;\n    font-size: 1.5rem;\n}\n\n\nfooter p a {\n    color: white;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -576,9 +574,16 @@ const card = (() => {
             `;
         return card;
     };
-    const historyCard = () => {
+    const historyCard = (city, country, gif) => {
         const card = document.createElement('div');
         card.classList.add('history-card');
+        card.innerHTML = ` 
+                        <img src=${gif} class="gif">
+                        <div class="location">
+                            <p>${city}</p>
+                            <p>${country}</p>
+                        </div>`;
+        return card;
     };
     return {
         mainCard,
@@ -640,8 +645,8 @@ const fetchApi = (() => {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const response = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${weatherApiKey}`);
-                const inputData = yield response.json();
-                return inputData;
+                const data = yield response.json();
+                return data;
             }
             catch (error) {
                 return error;
@@ -651,6 +656,9 @@ const fetchApi = (() => {
     function GIFYApi() {
         return __awaiter(this, void 0, void 0, function* () {
             try {
+                const response = yield fetch(`https://api.giphy.com/v1/gifs/translate?api_key=l7ltXIc5eu9CcrPzS435RimLS6qRjXSA&s=cats`, { mode: 'cors' });
+                const data = yield response.json();
+                return data;
             }
             catch (error) {
             }
@@ -690,7 +698,7 @@ exports.domData = void 0;
 __webpack_require__(/*! ./styles.css */ "./src/styles.css");
 const cards_1 = __importDefault(__webpack_require__(/*! ./cards */ "./src/cards.ts"));
 const fetchAPI_1 = __importDefault(__webpack_require__(/*! ./fetchAPI */ "./src/fetchAPI.ts"));
-const storage_1 = __importDefault(__webpack_require__(/*! ./storage */ "./src/storage.ts"));
+const storage_1 = __webpack_require__(/*! ./storage */ "./src/storage.ts");
 const converions_1 = __importDefault(__webpack_require__(/*! ./converions */ "./src/converions.ts"));
 exports.domData = {
     newLocationBtn: document.getElementById('new-location-btn'),
@@ -700,13 +708,18 @@ exports.domData = {
     sideCardTwo: document.getElementById('side-card-two'),
     history: document.getElementById('recent-searches')
 };
+storage_1.storage.loadStoredLocations();
 exports.domData.newLocationBtn.addEventListener('click', () => __awaiter(void 0, void 0, void 0, function* () {
-    const location = exports.domData.newLocationInput.value;
-    const data = yield fetchAPI_1.default.weatherApi(location);
+    const inputLocation = exports.domData.newLocationInput.value;
+    const data = yield fetchAPI_1.default.weatherApi(inputLocation);
+    const city = data.name;
+    const country = data.sys.country;
+    const location = new storage_1.Location(city, country);
+    storage_1.storage.addToStorage(location);
     const mainCard = cards_1.default.mainCard(data.name, data.sys.country, converions_1.default.toFarienheit(data.main.temp));
     const sideCard1 = cards_1.default.sideCard(converions_1.default.toFarienheit(data.main.feels_like), data.main.humidity, 'Feels Like: ', 'Humidity: ');
     const sideCard2 = cards_1.default.sideCard(data.weather[0].main, data.weather[0].description);
-    storage_1.default.clearData();
+    storage_1.storage.clearData();
     exports.domData.bigCard.appendChild(mainCard);
     exports.domData.sideCardOne.appendChild(sideCard1);
     exports.domData.sideCardTwo.appendChild(sideCard2);
@@ -719,12 +732,49 @@ exports.domData.newLocationBtn.addEventListener('click', () => __awaiter(void 0,
 /*!************************!*\
   !*** ./src/storage.ts ***!
   \************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Location = exports.storage = void 0;
 const _1 = __webpack_require__(/*! . */ "./src/index.ts");
+const cards_1 = __importDefault(__webpack_require__(/*! ./cards */ "./src/cards.ts"));
+const fetchAPI_1 = __importDefault(__webpack_require__(/*! ./fetchAPI */ "./src/fetchAPI.ts"));
+class Location {
+    constructor(city, country) {
+        this.city = city;
+        this.country = country;
+    }
+}
+exports.Location = Location;
 const storage = (() => {
+    const loadStoredLocations = () => __awaiter(void 0, void 0, void 0, function* () {
+        if (localStorage.length > 0) {
+            for (let i = 0; i < localStorage.length; i++) {
+                const item = localStorage.key(i) || "";
+                const location = JSON.parse(localStorage.getItem(item) || "");
+                const gif = yield fetchAPI_1.default.GIFYApi();
+                const historyCard = cards_1.default.historyCard(location.city, location.country, gif.data.images.original.url);
+                _1.domData.history.appendChild(historyCard);
+            }
+        }
+    });
+    const addToStorage = (Location) => {
+        const location = JSON.stringify(Location);
+        localStorage.setItem(Location.city, location);
+    };
     const clearData = () => {
         const bigCard = _1.domData.bigCard;
         const sideCardOne = _1.domData.sideCardOne;
@@ -737,21 +787,13 @@ const storage = (() => {
         }
     };
     return {
-        clearData
+        clearData,
+        addToStorage,
+        loadStoredLocations
     };
 })();
-exports["default"] = storage;
+exports.storage = storage;
 
-
-/***/ }),
-
-/***/ "./src/imgs/circle-half-full.svg":
-/*!***************************************!*\
-  !*** ./src/imgs/circle-half-full.svg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "cee4c5662b70f38bc04b.svg";
 
 /***/ }),
 

@@ -46,7 +46,7 @@ table {
 
 body {
     background: url(./imgs/noaa-99F4mC79j1I-unsplash\ \(1\).jpg);
-}
+background-size: cover;}
 
 
 
@@ -104,7 +104,6 @@ body {
 
 .theme {
     color: white;
-    background: url('./imgs/circle-half-full.svg');
 }
 
 .hero {
@@ -210,6 +209,36 @@ body {
 }
 
 
+.recent-searches {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.history-card {
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    width: 30rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.gif {
+    width: 50%;
+    height: 100;
+}
+
+
+.location {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
 footer {
     height: 4rem;
     display: flex;

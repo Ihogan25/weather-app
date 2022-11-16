@@ -1,8 +1,9 @@
-import { type } from "os";
-
-
+import fetchApi from "./fetchAPI";
+import convert from "./converions";
+import { domData } from ".";
 const card = (()=> {
 
+    
     const mainCard =(name:string, country: string, tempature:string):HTMLDivElement=> {
         const card = document.createElement('div');
         card.classList.add('main-card')
@@ -33,20 +34,27 @@ const card = (()=> {
             `
         return card
 
-
+        
         
     }
 
-    const historyCard=()=> {
+
+    const historyCard=(city: string, country: string, gif: string)=> {
         const card = document.createElement('div');
         card.classList.add('history-card');
+        card.innerHTML = ` 
+                        <img src=${gif} class="gif">
+                        <div class="location">
+                            <p>${city}</p>
+                            <p>${country}</p>
+                        </div>`
+        return card
     }
 
     return {
         mainCard,
         sideCard,
         historyCard
-
     }
 })()
 
